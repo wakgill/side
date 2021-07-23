@@ -13,7 +13,8 @@ layout: default
     </h1>
 
     {{ post.content }}
-       <p class="post-footer">
+    
+    <p class="post-footer">
 
                         
 
@@ -28,10 +29,8 @@ link">{{ post.date | date_to_string }}</a></em>
                             
 
                          </p>
+  </div>
   {% endfor %}
-   
-  </div>  
-    
 </div>
 
 <div class="pagination">
@@ -50,5 +49,4 @@ link">{{ post.date | date_to_string }}</a></em>
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
-
 
